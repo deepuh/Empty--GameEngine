@@ -1,4 +1,4 @@
-class Kamehameha {
+class Lightsaber {
     constructor() {
 
     };
@@ -8,6 +8,6 @@ class Kamehameha {
     };
 
     draw(ctx) {
-        ctx.drawImage(ASSET_MANAGER.getAsset("./kamehameha.png"), 0, 0);
+        ctx.drawImage(ASSET_MANAGER.getAsset("./lightsaber.png"), 0, 0);
     };
 }
