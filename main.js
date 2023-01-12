@@ -7,6 +7,8 @@ ASSET_MANAGER.queueDownload("./kamehameha.png");
 ASSET_MANAGER.downloadAll(() => {
 	const canvas = document.getElementById("gameWorld");
 	const ctx = canvas.getContext("2d");
+	
+	gameEngine.addEntity(new Kamehameha());
 
 	gameEngine.init(ctx);
 
